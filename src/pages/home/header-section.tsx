@@ -3,7 +3,7 @@ import PredictModal from "../components/predict-modal";
 import DragDrop from "../components/drag-drop";
 import { useRouter } from "next/router";
 
-export const makeTextGreen = (text: string) => {
+const makeTextGreen = (text: string) => {
   return <span className="text-green-500 font-semibold">{text}</span>;
 };
 export const HeaderSection = () => {
@@ -129,3 +129,5 @@ export const HeaderSection = () => {
     </section>
   );
 };
+
+export default HeaderSection;

@@ -1,6 +1,6 @@
 import { makeTextGreen } from "./header-section";
 
-export const Services = () => {
+const Services = () => {
   return (
     <section
       style={{
@@ -41,3 +41,6 @@ const ServiceCard = ({ header, description }: any) => {
     </div>
   );
 };
+
+
+export default Services;

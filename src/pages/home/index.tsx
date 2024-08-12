@@ -1,7 +1,7 @@
 import React from "react";
-import { HeaderSection } from "./header-section";
-import { Services } from "./services";
 import ToolsUsed from "./tools-used";
+import Services from "./services";
+import HeaderSection from "./header-section";
 
 function HomePage() {
   return (

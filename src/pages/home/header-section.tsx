@@ -3,10 +3,10 @@ import PredictModal from "../components/predict-modal";
 import DragDrop from "../components/drag-drop";
 import { useRouter } from "next/router";
 
-const makeTextGreen = (text: string) => {
+export const makeTextGreen = (text: string) => {
   return <span className="text-green-500 font-semibold">{text}</span>;
 };
-export const HeaderSection = () => {
+const HeaderSection = () => {
   const [showPredictModal, setShowPredictModal] = useState(false);
   const router = useRouter();
   return (
